@@ -1,0 +1,8 @@
+.navbar-mobile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hamburguer-elements {
+  display: none;
+}
