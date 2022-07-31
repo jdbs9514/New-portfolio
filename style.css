@@ -37,11 +37,17 @@
   padding: 5%;
 }
 
+.conect {
+  padding: 5%;
+}
+
 .icons {
   display: flex;
   list-style-type: none;
+  width: 70%;
+  margin-top: 4%;
 }
 
 .img {
-  width: 50%;
+  width: 70%;
 }
