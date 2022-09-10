@@ -7,6 +7,31 @@
   font-family: 'Merriweather', serif;
 }
 
+.fa-cubes {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.fa-bars {
+  transition: 1s;
+}
+
+.fa-bars:hover {
+  transform: rotate(360deg);
+}
+
 .navbar-mobile {
   display: flex;
   justify-content: space-between;
@@ -35,6 +60,7 @@
   margin-top: 20%;
   font-size: 2.5rem;
   line-height: 3.5rem;
+  text-shadow: 3px 3px 3px teal;
 }
 
 .first-section {
@@ -43,6 +69,50 @@
   background-size: 100vw;
   overflow-x: hidden;
   border-bottom-left-radius: 15%;
+}
+
+li #twitter {
+  box-shadow: 5px 5px 5px teal;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+li #twitter:hover {
+  width: 100%;
+  height: 100%;
+}
+
+li #linkedin {
+  box-shadow: 5px 5px 5px teal;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+li #linkedin:hover {
+  width: 100%;
+  height: 100%;
+}
+
+li #gmail {
+  box-shadow: 5px 5px 5px teal;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+li #gmail:hover {
+  width: 100%;
+  height: 100%;
+}
+
+li #github {
+  box-shadow: 5px 5px 5px teal;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+li #github:hover {
+  width: 100%;
+  height: 100%;
 }
 
 .description {
@@ -67,4 +137,131 @@ h3 {
 .img {
   width: 70%;
   cursor: pointer;
+}
+
+/* Card one */
+
+.project-one {
+  border: 1px solid #dfe1e6;
+  padding: 0%;
+  margin-top: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+  border-radius: 3%;
+}
+
+.img-position {
+  background-color: #396df2;
+  border-radius: 8px;
+  padding-bottom: 5%;
+  margin: 5% 5% 5% 5%;
+  box-shadow: 5px 5px 5px teal;
+}
+
+.img-position img {
+  width: 78%;
+  height: 28vh;
+  margin-top: 5%;
+  transition: 2s;
+}
+
+.img-position img:hover {
+  width: 150%;
+  height: 150%;
+}
+
+.img-position span {
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  padding: 7%;
+}
+
+.title {
+  color: #273746;
+  text-shadow: 2px 2px 2px teal;
+}
+
+.ul-lenguajes {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 2rem;
+  margin-top: 5%;
+}
+
+.ta {
+  border: 1px solid #ebebff;
+  background-color: #ebebff;
+  font-size: 90%;
+  padding: 1%;
+  border-radius: 8px;
+  color: #6070ff;
+  box-shadow: 5px 5px 5px teal;
+}
+
+.paragraph {
+  margin-top: 8%;
+}
+
+.ul-icons {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 2rem;
+  margin-top: 20%;
+}
+
+.see-project {
+  margin-top: 10%;
+  font-size: 2rem;
+  background: #fff;
+  border-color: #396df2;
+  padding: 5% 10%;
+  color: #396df2;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px teal;
+  transition: background-color 2s;
+}
+
+.see-project:hover {
+  background: #396df2;
+  color: #fff;
+}
+
+#html5 {
+  box-shadow: 5px 5px 5px teal;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+#html5:hover {
+  transform: rotate(360deg);
+}
+
+#css3 {
+  box-shadow: 5px 5px 5px teal;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+#css3:hover {
+  transform: rotate(360deg);
+}
+
+#js {
+  height: 42px;
+  width: 45px;
+  margin-top: 4px;
+  box-shadow: 5px 5px 5px teal;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+#js:hover {
+  transform: rotate(360deg);
 }
