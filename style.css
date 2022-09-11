@@ -347,3 +347,64 @@ span .anchor:hover {
   box-shadow: 0 0 10px 0 #6070ff inset, 0 0 10px 4px #6070ff;
   color: #6070ff;
 }
+
+.skills {
+  padding: 7%;
+}
+
+.languajes-skills {
+  list-style-type: none;
+  margin-top: 7%;
+}
+
+.languajes-skills li {
+  margin-bottom: 5%;
+  border: 1px solid #f7f7f9;
+  background: #f7f7f9;
+  border-radius: 8px;
+}
+
+.frameworks-skills {
+  list-style-type: none;
+  margin-top: 7%;
+}
+
+.frameworks-skills li {
+  margin-bottom: 5%;
+  border: 1px solid #f7f7f9;
+  background: #f7f7f9;
+  border-radius: 8px;
+  gap: 10rem;
+}
+
+.frameworks {
+  margin-top: 10%;
+  color: #273746;
+  text-shadow: 5px 5px 5px teal;
+}
+
+.languajes {
+  color: #273746;
+  text-shadow: 5px 5px 5px teal;
+}
+
+.column {
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow-down {
+  background: none;
+  border: none;
+  color: #273746;
+  cursor: pointer;
+}
+
+#arrow {
+  margin-top: 10%;
+}
