@@ -408,3 +408,7 @@ span .anchor:hover {
 #arrow {
   margin-top: 10%;
 }
+
+.div-ul .hidden {
+  display: none;
+}
