@@ -32,5 +32,7 @@ arrow.addEventListener('click', () => {
     arrow.classList.remove('arrow-up');
     unsortedList.remove();
     arrow.innerHTML = '<i class="fa-sharp fa-solid fa-chevron-down">';
+    document.location.reload();
+    document.preventDefault();
   });
 });
