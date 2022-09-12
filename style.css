@@ -353,8 +353,14 @@ span .anchor:hover {
 }
 
 .languajes-skills {
+  display: none;
   list-style-type: none;
   margin-top: 7%;
+}
+
+.languajes-skills.active {
+  display: flex;
+  flex-direction: column;
 }
 
 .languajes-skills li {
@@ -364,9 +370,15 @@ span .anchor:hover {
   border-radius: 8px;
 }
 
-.frameworks-skills {
+.frameworks-skills.active {
+  display: flex;
+  flex-direction: column;
   list-style-type: none;
   margin-top: 7%;
+}
+
+.frameworks-skills {
+  display: none;
 }
 
 .frameworks-skills li {
@@ -405,10 +417,25 @@ span .anchor:hover {
   cursor: pointer;
 }
 
-#arrow {
-  margin-top: 10%;
+.arrow-down.active {
+  transition: 5ms;
 }
 
-.div-ul .hidden {
-  display: none;
+.arrow-down.active:hover {
+  transform: rotate(180deg);
+}
+
+#arrow {
+  margin-top: 10%;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.arrow.active {
+  transition: 5ms;
+}
+
+.arrow.active:hover {
+  transform: rotate(180deg);
 }
